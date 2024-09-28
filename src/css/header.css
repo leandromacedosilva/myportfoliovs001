@@ -1,8 +1,9 @@
 header {
-  background-color: orange;
+  margin: 4px;
+  background-color: #fde68a;
   border-radius: 10px 10px 0px 0px;
-  max-width: 805px;
-  margin: auto;
+  /* max-width: 805px;
+  margin: auto; */
 }
 
 .menuBar {
