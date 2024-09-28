@@ -1,0 +1,44 @@
+main .card1 {
+  display: flex;
+  padding: 10px;
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+.imgCard1 img {
+  border-radius: 50%;
+  border: 0;
+  width: 12rem;
+  height: 12rem;
+}
+
+.pCard1 p {
+  padding: 40px;
+  text-align: justify;
+}
+
+.links-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  & a {
+    text-align: center;
+    cursor: pointer;
+
+    & button {
+      background: #fef9c3;
+      border-radius: 10px;
+      padding: 4px;
+      cursor: pointer;
+      width: 40em;
+      border: none;
+      font-size: 20px;
+    }
+
+    & button:hover {
+      background: #d9f99d;
+    }
+  }
+}
